@@ -1,3 +1,4 @@
 node_modules
-.env.exam
+.env
 crawling.js
+config.json
