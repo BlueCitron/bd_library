@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { Op } from 'Sequelize';
+import { Op } from 'sequelize';
 
 import { Author, Book, Category, Division, Library, Publisher, Reference } from '../models';
 

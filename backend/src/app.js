@@ -10,7 +10,7 @@ dotenv.config();
 sequelize.sync({ force: false });
 const app = express();
 
-const { HOST, PORT } = process.env
+const { HOST, PORT, NODE_ENV } = process.env
 
 app.use(morgan('dev'));
 app.use(express.json());
@@ -23,5 +23,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(PORT, HOST, () => {
-  console.log(`Listening on: http://${HOST}:${PORT}`)
+  console.log(`Listening on: http://${HOST}:${PORT} with mode: ${NODE_ENV}`)
 });
