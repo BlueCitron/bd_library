@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "nuxt": "^2.4.5"
+    "nuxt": "^2.4.5",
+    "nuxt-start": "^2.4.5"
   }
 }

@@ -4241,6 +4241,19 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
+nuxt-start@^2.4.5:
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/nuxt-start/-/nuxt-start-2.4.5.tgz#1c00794b483558a0acdadb883caae8b30324b926"
+  integrity sha512-nIUkEWrQ6HoBLit39fVaSllRuhgiOXbiUSPaN6/qQkufweZSm4jqHp8iZTSblwg8ftakQ20vd13DXMtU1HbhiA==
+  dependencies:
+    "@nuxt/cli" "2.4.5"
+    "@nuxt/core" "2.4.5"
+    vue "^2.5.22"
+    vue-meta "^1.5.8"
+    vue-no-ssr "^1.1.1"
+    vue-router "^3.0.2"
+    vuex "^3.1.0"
+
 nuxt@^2.4.5:
   version "2.4.5"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.4.5.tgz#3f3256c47e78038ef8081e522181aa2578bddcea"
